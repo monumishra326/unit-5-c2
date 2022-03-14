@@ -1,0 +1,37 @@
+{
+  "houses": [
+    {
+      "name": "Monu",
+      "ownerName": "Swanand",
+      "address": "xyx",
+      "areaCode": "12345",
+      "rent": "2000",
+      "bachelor": "bachelor",
+      "married": "",
+      "image": "ax",
+      "id": 1
+    },
+    {
+      "name": "oihrh",
+      "ownerName": "ejduishck",
+      "address": "knedchjs",
+      "areaCode": "uhkhkichdk",
+      "rent": "21343",
+      "bachelor": "bachelor",
+      "married": "married",
+      "image": "",
+      "id": 2
+    },
+    {
+      "name": "ojisaohd",
+      "ownerName": "hksxgc jh",
+      "address": "hxshxk",
+      "areaCode": "566464634366",
+      "rent": "56654646",
+      "bachelor": "bachelor",
+      "married": "",
+      "image": "",
+      "id": 3
+    }
+  ]
+}
