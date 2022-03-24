@@ -1,20 +1,19 @@
-// import "./App.css";
-import { Rentals } from "./Components/Rentals/Rentals";
-import { AddHouse } from "./Components/AddHouse/AddHouse";
+import {useState} from 'react';
+import './App.css';
+import { AddHouse } from './components/AddHouse/AddHouse';
+import { Rentals } from './components/Rentals/Rentals';
 
 function App() {
-  // const [toogle, settoogle] = useState("form");
-
-  // const toggler = () => {};
-
+  const [show,setShow] = useState(false)
   return (
     <div className="App">
-      <AddHouse></AddHouse>
-      <Rentals></Rentals>
-      <button className="toggleForm">
-        {/* Show text Add House or Show Rentals based on state */} Toggle
+      
+      <button className="toggleForm" onClick={()=>{
+        show?setShow(false):setShow(true)
+      }}>
+        {show?"Show Rentals":"Add House"}
       </button>
-      {/* Show component based on state */}
+      {show?<AddHouse/>:<Rentals/>}
       <br />
     </div>
   );
