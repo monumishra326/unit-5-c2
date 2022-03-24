@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import './App.css';
+// import './App.css';
 import { AddHouse } from './components/AddHouse/AddHouse';
 import { Rentals } from './components/Rentals/Rentals';
 
